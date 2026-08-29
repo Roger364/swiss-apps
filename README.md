@@ -1,6 +1,6 @@
-# Site Roger.dev
+# Site swiss-apps
 
-Site one-page pour [Roger.dev](https://roger.dev) — développeur indépendant en Suisse. Présente le projet et les 3 applications Android (alpha-theta, habitflow-mobile, subtracker-mobile).
+Site one-page pour **swiss-apps** — applications Android utiles, sans publicité, avec abonnement Premium optionnel. Développeurs indépendants en Suisse.
 
 > **Statut** : aucune application n'est encore publiée. Cette page décrit le projet et le travail en cours.
 
@@ -10,7 +10,7 @@ Site one-page pour [Roger.dev](https://roger.dev) — développeur indépendant 
 - **Police** : [Inter](https://fonts.google.com/specimen/Inter) (Google Fonts)
 - **Icônes** : SVG inline (favicon + 3 icônes d'apps, dans `assets/`)
 - **JS** : ~20 lignes vanilla (menu mobile + année dynamique)
-- **Hébergement prévu** : GitHub Pages (statique, aucun build)
+- **Hébergement** : GitHub Pages (statique, aucun build)
 
 ## Arborescence
 
@@ -20,7 +20,7 @@ site/
 ├── styles.css         # styles + variables CSS
 ├── README.md          # ce fichier
 └── assets/
-    ├── favicon.svg            # favicon gradient + R
+    ├── favicon.svg            # favicon gradient + S
     ├── app-alpha-theta.svg    # icône méditation
     ├── app-habitflow.svg      # icône tracker
     └── app-subtracker.svg     # icône radar
@@ -30,7 +30,7 @@ site/
 
 ### 1. Créer le dépôt
 
-Crée un dépôt nommé **`rogerdev.github.io`** (ou un autre nom si tu utilises un domaine personnalisé). Coche *Add a README file*.
+Crée un dépôt nommé **`swiss-apps`** sous ton utilisateur/organisation. Coche *Add a README file*.
 
 ### 2. Pousser le contenu du site
 
@@ -38,8 +38,8 @@ Crée un dépôt nommé **`rogerdev.github.io`** (ou un autre nom si tu utilises
 cd site
 git init -b main
 git add .
-git commit -m "feat: site roger.dev one-page"
-git remote add origin https://github.com/rogerdev/rogerdev.github.io.git
+git commit -m "feat: site swiss-apps one-page"
+git remote add origin https://github.com/<ton-user>/swiss-apps.git
 git push -u origin main
 ```
 
@@ -47,14 +47,14 @@ git push -u origin main
 
 Sur GitHub : **Settings → Pages → Build and deployment → Source : Deploy from a branch**, choisir `main` et `/ (root)`. Attendre ~1 minute.
 
-→ Le site sera accessible sur **https://rogerdev.github.io**
+→ Le site sera accessible sur **https://<ton-user>.github.io/swiss-apps/**
 
 ### Domaine personnalisé (optionnel)
 
-Si tu achètes `roger.dev` :
-1. Dans `site/`, créer un fichier `CNAME` (sans extension) contenant juste `roger.dev`
-2. Chez ton registrar, ajouter un CNAME `www` → `rogerdev.github.io` et un A record vers les IPs GitHub (185.199.108.153, .109.153, .110.153, .111.153)
-3. Dans Settings → Pages → Custom domain : `roger.dev`, cocher *Enforce HTTPS*
+Si tu achètes `swiss-apps.ch` :
+1. Dans `site/`, créer un fichier `CNAME` (sans extension) contenant juste `swiss-apps.ch`
+2. Chez ton registrar, ajouter un CNAME `www` → `<ton-user>.github.io` et un A record vers les IPs GitHub (185.199.108.153, .109.153, .110.153, .111.153)
+3. Dans Settings → Pages → Custom domain : `swiss-apps.ch`, cocher *Enforce HTTPS*
 
 ## Développer en local
 
@@ -83,10 +83,10 @@ npx serve .
 ## Quand une application sera publiée
 
 Pour chaque app publiée :
-1. **Card** : remplacer `<a class="btn btn-soft" href="#" aria-disabled="true">Bientôt…</a>` par un vrai lien Google Play (`href="https://play.google.com/store/apps/details?id=…"`) + retirer `aria-disabled`
+1. **Card** : remplacer `<a class="btn btn-soft" href="#" aria-disabled="true">Bientôt…</a>` par un vrai lien Google Play (`href="https://play.google.com/store/apps/details?id=..."`) + retirer `aria-disabled`
 2. **Roadmap** : passer le `<li>` de `class="roadmap-item planned"` à `class="roadmap-item done"`, et le texte de `.status` à « publié »
 3. **Hero** : retirer la mention `⏳ Les applications ne sont pas encore publiées`
 
 ## Licence
 
-Code du site : libre de droits. Contenu textuel (descriptions, ton éditorial) : à toi de décider — par défaut tout est Roger.dev.
+Code du site : libre de droits. Contenu textuel (descriptions, ton éditorial) : à toi de décider — par défaut tout est swiss-apps.
