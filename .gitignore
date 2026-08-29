@@ -1,4 +1,3 @@
-# Logs et secrets — ne pas versionner
 *.log
 .env
-.env.local
+.askpass*
