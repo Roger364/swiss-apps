@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Roger.dev — développeur indépendant en Suisse. Applications Android utiles, sans publicité, avec abonnement Premium optionnel." />
+  <meta name="theme-color" content="#0B1120" />
+  <title>Roger.dev — Applications Android sans publicité</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ========== HEADER ========== -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="brand" aria-label="Roger.dev — Accueil">
+        <span class="brand-mark" aria-hidden="true">R</span>
+        <span class="brand-name">Roger<span class="brand-dot">.dev</span></span>
+      </a>
+      <nav class="site-nav" aria-label="Navigation principale">
+        <a href="#top">Accueil</a>
+        <a href="#applications">Applications</a>
+        <a href="#premium">Premium</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#apropos">À propos</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="menu-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Navigation mobile" hidden>
+      <a href="#top">Accueil</a>
+      <a href="#applications">Applications</a>
+      <a href="#premium">Premium</a>
+      <a href="#roadmap">Roadmap</a>
+      <a href="#apropos">À propos</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- ========== HERO ========== -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <p class="eyebrow">Applications Android · Suisse 🇫🇷</p>
+        <h1 class="hero-title">
+          Des outils simples,<br />
+          <span class="accent">pensés pour durer.</span>
+        </h1>
+        <p class="hero-subtitle">
+          Trois applications conçues par un développeur indépendant&nbsp;: utiles dès
+          l'installation, sans aucune publicité, avec un abonnement Premium
+          entièrement optionnel.
+        </p>
+        <p class="hero-note">⏳ Les applications ne sont pas encore publiées — cette page présente le projet.</p>
+        <div class="hero-actions">
+          <a href="#applications" class="btn btn-primary">Découvrir les applications</a>
+          <a href="#apropos" class="btn btn-ghost">En savoir plus</a>
+        </div>
+        <div class="hero-meta" aria-label="Caractéristiques">
+          <span>✓ Sans publicité</span>
+          <span>✓ Données locales</span>
+          <span>✓ Conçu en Suisse</span>
+        </div>
+      </div>
+      <div class="hero-bg" aria-hidden="true"></div>
+    </section>
+
+    <!-- ========== APPLICATIONS ========== -->
+    <section class="section" id="applications">
+      <div class="container">
+        <header class="section-head">
+          <h2>Les applications</h2>
+          <p>Une seule promesse pour les trois&nbsp;: vous aider, sans vous déranger.</p>
+        </header>
+
+        <div class="cards">
+          <article class="card">
+            <img class="card-icon" src="assets/app-alpha-theta.svg" alt="" width="48" height="48" />
+            <h3>alpha-theta</h3>
+            <p class="card-tag">Méditation &amp; sons binauraux</p>
+            <p>
+              Installez-vous, fermez les yeux. L'application vous guide vers
+              un état de relaxation profonde grâce à votre rythme cardiaque
+              et à votre respiration, mesurés en temps réel par la caméra.
+            </p>
+            <a class="btn btn-soft" href="#" aria-disabled="true"
+               title="Bientôt disponible — inscription à la bêta par e-mail">
+              Bientôt sur Google Play
+            </a>
+          </article>
+
+          <article class="card">
+            <img class="card-icon" src="assets/app-habitflow.svg" alt="" width="48" height="48" />
+            <h3>habitflow-mobile</h3>
+            <p class="card-tag">Tracker d'habitudes</p>
+            <p>
+              Construisez les routines qui vous ressemblent. Suivi visuel,
+              rappels discrets, statistiques honnêtes&nbsp;: pas de streak qui
+              culpabilise, juste vos progrès à votre rythme.
+            </p>
+            <a class="btn btn-soft" href="#" aria-disabled="true"
+               title="Bientôt disponible — inscription à la bêta par e-mail">
+              Bientôt sur Google Play
+            </a>
+          </article>
+
+          <article class="card">
+            <img class="card-icon" src="assets/app-subtracker.svg" alt="" width="48" height="48" />
+            <h3>subtracker-mobile</h3>
+            <p class="card-tag">Radar d'abonnements</p>
+            <p>
+              Reprenez le contrôle de vos abonnements. Détection automatique,
+              alertes avant renouvellement, visualisation claire de ce que
+              vous payez vraiment chaque mois.
+            </p>
+            <a class="btn btn-soft" href="#" aria-disabled="true"
+               title="Bientôt disponible — inscription à la bêta par e-mail">
+              Bientôt sur Google Play
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PREMIUM ========== -->
+    <section class="section section-alt" id="premium">
+      <div class="container">
+        <header class="section-head">
+          <h2>Premium, en toute transparence</h2>
+          <p>
+            La version gratuite reste complète et utile. Le Premium ajoute
+            des fonctions avancées pour ceux qui en ont besoin — jamais
+            imposées.
+          </p>
+        </header>
+
+        <div class="pricing">
+          <div class="price-card">
+            <h3>Mensuel</h3>
+            <p class="price"><span>3,99</span> CHF / mois</p>
+            <p class="price-sub">ou 4,99 CHF selon l'app</p>
+            <ul>
+              <li>Toutes les fonctions avancées</li>
+              <li>Aucune publicité</li>
+              <li>Annulation à tout moment</li>
+            </ul>
+            <a class="btn btn-primary" href="#contact">Choisir le mensuel</a>
+          </div>
+          <div class="price-card featured">
+            <span class="badge">Économique</span>
+            <h3>Annuel</h3>
+            <p class="price"><span>29,99</span> CHF / an</p>
+            <p class="price-sub">soit ~2,50 CHF / mois</p>
+            <ul>
+              <li>Toutes les fonctions avancées</li>
+              <li>Aucune publicité</li>
+              <li>Environ 2 mois offerts</li>
+              <li>Support prioritaire</li>
+            </ul>
+            <a class="btn btn-primary" href="#contact">Choisir l'annuel</a>
+          </div>
+        </div>
+
+        <div class="premium-points">
+          <div class="point">
+            <h4>✓ Aucune publicité, jamais</h4>
+            <p>Pas de bannières, pas de vidéos imposées, pas de pistage publicitaire. C'est non négociable.</p>
+          </div>
+          <div class="point">
+            <h4>✓ Fonctionnalités avancées</h4>
+            <p>Statistiques détaillées, synchronisation, exports, automatisations — débloquées par l'abonnement.</p>
+          </div>
+          <div class="point">
+            <h4>✓ Développeur indépendant</h4>
+            <p>Une seule personne, qui répond à vos mails, qui améliore ses apps en vous écoutant.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ROADMAP ========== -->
+    <section class="section" id="roadmap">
+      <div class="container">
+        <header class="section-head">
+          <h2>Roadmap transparente</h2>
+          <p>
+            Pas de promesses marketing. Voici ce qui est déjà en ligne, ce
+            sur quoi je travaille, et ce qui est envisagé sans engagement
+            de date.
+          </p>
+        </header>
+
+        <ol class="roadmap">
+          <li class="roadmap-item planned">
+            <div class="roadmap-badge" aria-label="En cours">○</div>
+            <div class="roadmap-body">
+              <h3>alpha-theta <span class="status">en bêta privée</span></h3>
+              <p>Méditation guidée par sons binauraux et biofeedback — phase de validation avant publication.</p>
+            </div>
+          </li>
+          <li class="roadmap-item planned">
+            <div class="roadmap-badge" aria-label="En cours">○</div>
+            <div class="roadmap-body">
+              <h3>habitflow-mobile <span class="status">en préparation</span></h3>
+              <p>Tracker d'habitudes en cours de finalisation pour publication sur Google Play.</p>
+            </div>
+          </li>
+          <li class="roadmap-item planned">
+            <div class="roadmap-badge" aria-label="En cours">○</div>
+            <div class="roadmap-body">
+              <h3>subtracker-mobile <span class="status">en préparation</span></h3>
+              <p>Radar d'abonnements en cours de finalisation pour publication sur Google Play.</p>
+            </div>
+          </li>
+          <li class="roadmap-item planned">
+            <div class="roadmap-badge" aria-label="Envisagé">○</div>
+            <div class="roadmap-body">
+              <h3>Version iOS <span class="status">envisagé</span></h3>
+              <p>Si la demande suit, je porterai les apps sur iOS. Pas de date annoncée.</p>
+            </div>
+          </li>
+        </ol>
+
+        <p class="roadmap-foot">
+          Une idée, un bug, un cas d'usage qui te manque&nbsp;?
+          <a href="#contact">Écris-moi</a> — chaque retour compte.
+        </p>
+      </div>
+    </section>
+
+    <!-- ========== À PROPOS ========== -->
+    <section class="section" id="apropos">
+      <div class="container about">
+        <h2>À propos</h2>
+        <p>
+          Je suis <strong>Roger</strong>, développeur indépendant basé en
+          Suisse. Je crée des outils simples et utiles, parce que c'est ce
+          que j'aime utiliser moi-même&nbsp;: des applications qui font
+          exactement ce qu'elles disent, sans bruit.
+        </p>
+        <p>
+          Je préfère les modèles freemium respectueux à la publicité
+          intrusive. Vous essayez gratuitement, vous payez seulement si
+          l'application vous apporte de la valeur — et jamais pour de la
+          paperasse à cliquer.
+        </p>
+        <p>
+          Chaque app est pensée, testée et améliorée sur la durée. Pas
+          d'effets de mode, pas de copier-coller de fonctionnalités&nbsp;:
+          des outils que je suis fier de signer.
+        </p>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section class="section section-alt" id="contact">
+      <div class="container contact">
+        <h2>Contact</h2>
+        <p>
+          Une question, un bug, une idée d'amélioration&nbsp;?
+          J'aime les mails courts.
+        </p>
+        <p class="contact-email">
+          <a href="mailto:contact@roger.dev">contact@roger.dev</a>
+        </p>
+        <p class="legal">
+          Développeur indépendant · Suisse · Hébergement GitHub Pages ·
+          <a href="#confidentialite">Politique de confidentialité</a> ·
+          <a href="#mentions">Mentions légales</a>
+        </p>
+
+        <div class="legal-blocks">
+          <article id="confidentialite" class="legal-block">
+            <h3>Politique de confidentialité</h3>
+            <p>
+              Les applications proposées n'affichent aucune publicité et ne
+              partagent aucune donnée avec des tiers à des fins commerciales.
+              Les données que vous saisissez (séances, habitudes,
+              abonnements) restent stockées localement sur votre appareil
+              et, si vous le choisissez, synchronisées via votre compte
+              personnel.
+            </p>
+            <p>
+              Aucun cookie de pistage n'est utilisé sur ce site de
+              présentation. Seules des statistiques anonymisées de visites
+              peuvent être collectées par l'hébergeur (GitHub Pages).
+            </p>
+          </article>
+          <article id="mentions" class="legal-block">
+            <h3>Mentions légales</h3>
+            <p>
+              Éditeur&nbsp;: Roger, développeur indépendant, Suisse.
+              Hébergeur&nbsp;: GitHub Pages (GitHub, Inc.).
+              Contact&nbsp;: <a href="mailto:contact@roger.dev">contact@roger.dev</a>.
+            </p>
+            <p>
+              Les noms « Google Play » et « Android » sont des marques
+              appartenant à leurs propriétaires respectifs.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Roger.dev · Suisse</span>
+      <span class="footer-links">
+        <a href="#confidentialite">Confidentialité</a> ·
+        <a href="#mentions">Mentions légales</a> ·
+        <a href="mailto:contact@roger.dev">contact@roger.dev</a>
+      </span>
+    </div>
+  </footer>
+
+  <script>
+    // Année dynamique + menu mobile (vanilla, 1 ko)
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const toggle = document.querySelector('.menu-toggle');
+    const mobile = document.getElementById('mobile-nav');
+    if (toggle && mobile) {
+      toggle.addEventListener('click', () => {
+        const open = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!open));
+        toggle.setAttribute('aria-label', open ? 'Ouvrir le menu' : 'Fermer le menu');
+        mobile.hidden = open;
+      });
+      // Ferme le menu quand on clique un lien
+      mobile.querySelectorAll('a').forEach((a) =>
+        a.addEventListener('click', () => {
+          toggle.setAttribute('aria-expanded', 'false');
+          toggle.setAttribute('aria-label', 'Ouvrir le menu');
+          mobile.hidden = true;
+        })
+      );
+    }
+  </script>
+</body>
+</html>
